@@ -1,0 +1,51 @@
+.wheels {
+    -webkit-transform: rotate(-145deg);
+            transform: rotate(-145deg);
+
+    -webkit-animation: rotate 8s linear infinite;
+            animation: rotate 8s linear infinite;
+
+}
+
+.wheels2 {
+    -webkit-transform: rotate2(-145deg);
+            transform: rotate2(-145deg);
+
+    -webkit-animation: rotate2 8s linear infinite;
+            animation: rotate2 8s linear infinite;
+
+}
+
+@-webkit-keyframes rotate {
+     0% {
+        -webkit-transform: rotate(0deg);
+     }
+     100% {
+        -webkit-transform: rotate(360deg);
+     }
+ }
+ @keyframes rotate {
+     0% {
+        transform: rotate(360deg);
+        /* transform: translate(-900px, -40px) */
+     }
+
+
+     100% {
+        /* transform: translateX(1100px, 40px) */
+        transform: rotate(0deg);
+     }
+}
+
+@keyframes rotate2 {
+    0% {
+       transform: rotate(0deg);
+       /* transform: translate(-900px, -40px) */
+    }
+
+
+    100% {
+       /* transform: translateX(1100px, 40px) */
+       transform: rotate(360deg);
+    }
+}
