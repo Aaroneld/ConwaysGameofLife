@@ -36,3 +36,4 @@ export const openingAnimation = (canvas, ctx, specs, currentFont, currentTheme) 
     const letter = currentFont[key[0]][Math.floor(Math.random() * currentFont[key[0]].length)];
     ctx.fillText(`${letter}`, numberX +6, numberY + 17)
 }
+
