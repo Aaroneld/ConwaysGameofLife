@@ -58,7 +58,7 @@ export default function Rules() {
             <div className="paragraphs">
                 <div className="paragraph">
                     <h3>For a cell that is 'populated'</h3>
-                        <p> -- Each cell with one or more neighbors dies, as if by solitude</p>
+                        <p> -- Each cell with one or less neighbors dies, as if by solitude</p>
                         <p> -- Each cell with four or more neighbors dies, as if by overpopulation</p>
                         <p> -- Each cell with two or 3 three neighbors survives</p>
                 </div>
@@ -80,7 +80,7 @@ export default function Rules() {
                 <p>This game is a type of cellular automation whereby cells in the grid are informed 
                     of the nature (state) of their environment and can make descisions based on that knowledge
                     according to an a priori ruleset without outside interference. The Game of Life is Turing complete,
-                    and with another work can be used to derived any currently known Turing Machine.
+                    and can be used to derived any currently known Turing Machine.
                 </p>
             </div>
         </div>
